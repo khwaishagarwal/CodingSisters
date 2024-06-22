@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Empower young gils to enter the coding world" name="description">
+    <meta name="keywords" content="Coding, Girls, Sotware development, women coders, women in technology">
+    <!-- Favicon -->
+    <link href="#" rel="shortcut icon" type="image/png">
+    <!-- Bootstrap -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" rel="stylesheet">
+    <!-- Fontawesome Icons -->
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Quizlib import -->
+    <link href="assets/css/quizlib.css" rel="stylesheet">
+    <script src="assets/js/quizlib.js">
+    </script><!-- Fontawesome 4.7 CSS -->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        rel="stylesheet">
+    <!-- Custom CSS style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Coding Sisters | A website for keen coders!</title>
+    <style>
+        .quiz-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .quiz-section button {
+            color: white;
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: crimson;
+            font-size: 26px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-color navbar-expand-lg">
+            <div class="container-fluid"> <a class="navbar-brand logo" href="index.html">Coding Sisters</a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item navhome">
+                            <a aria-current="page" class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active navhome">
+                            <a class="nav-link" href="challenge.html">Challenge</a>
+                        </li>
+                        <li class="nav-item navhome">
+                            <a class="nav-link" href="mentors.html">Mentors</a>
+                        </li>
+                        <li class="nav-item navhome"> <a class="nav-link" href="resources.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="challenge-section" class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="quiz">Coding Challenge</h1>
+            </div>
+            <div class="circle"></div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid z-depth-1 " src="assets/images/web-design.png" alt="female web-design">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="lead">Ready to tackle your first challenge as a young programmer? Take quiz now to learn
+                        some about programming. We suggest you use <a href="http://google.com" target="_blank"
+                            rel="noopener noreferrer">Google</a> to search for the answers. Much of a programmers's work
+                        include researching 😉</p>
+                    <p class="lead">In this quiz we will talk about HTML and CSS. You can prepare for the quiz by
+                        clicking the icons below:</p>
+                    <a href="https://www.google.com/search?q=HTML" target="_blank" rel="noopener noreferrer"> <i
+                            class="fa fa-html5 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
+                    <a href="https://www.google.com/search?q=CSS" target="_blank" rel="noopener noreferrer"> <i
+                            class="fa fa-css3 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
+                    <div class="triangle"></div>
+                </div>
+                <!-- Quiz Container -->
+                <div class="quiz-section">
+                    <h1>Coding Sisters' Quiz</h1>
+                    <button onclick="window.location.href='https://forms.gle/rZJrNwEeiLumnYAy7'">Take the test</button>
+                </div>
+                <!-- Examples Container -->
+                <div class="row">
+
+                    <div class="col px-5">
+                        <h2 class="quiz-h">HTML Examples</h2>
+                        <p class="challenge-p">Here you can see some exaples of HTML tags being used.<br>
+                            Notice how on the left side it is pure code, but on the right side it looks nice. This is
+                            the
+                            power of programming! All the websites on the internet, this one included, are built more or
+                            less like that.</p>
+                        <!-- Codesandbox embded code. Actual sandbox at https://codesandbox.io/s/misty-microservice-se8m2?file=/index.html-->
+                        <iframe
+                            src="https://codesandbox.io/embed/misty-microservice-se8m2?autoresize=1&codemirror=1&fontsize=16&hidenavigation=1&theme=dark"
+                            style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+                            title="misty-microservice-se8m2"
+                            allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                            sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <h3 class="challenge-mentor">Did you enjoy the challenge & want to meet a mentor? </h3>
+            <div class="challenge-btn-mentors-div">
+                <a class="btn btn-lg challenge-btn-mentors hvr-pulse" href="mentors.html" role="button">
+                    Meet the Mentors
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid text-center" id="footer">
+            <div class="row">
+                <div class="col">
+                    <h2>Contact me on Github!</h2>
+                    <!-- Mentors Github links -->
+                    <ul class="github-links">
+                        <li><a href="https://github.com/khwaishagarwal" target="_blank" rel="noopener noreferrer" aria-label="isabelle avatar"><img
+                                    src="assets/images/isabelle.png" alt="mentor avatar"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
